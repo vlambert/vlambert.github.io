@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./images/favicon.png">
+
+    <title>Lambert - Research</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css" media="screen">
+    <!-- Bootstrap theme -->
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Files/my_custom.css" rel="stylesheet">
+
+
+    <script>
+      $(function(){
+         $("#includefooter").load("./footer.html");});
+    </script>
+
+    <!-- Google Analytics --> 
+    <script type="text/javascript">
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34168735-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="container">
+		  <div class="navbar-header">
+			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			 </button>
+             <a class="navbar-brand navbar-left" href="index.html">Val&egravere Lambert, Ph.D Student in Geophysics</a>
+		  </div>
+		  <div class="collapse navbar-collapse">
+			 <ul class="nav navbar-nav navbar-right" id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="research.html">Research</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="teaching.html">Teaching</a><li> 
+			 </ul>
+
+		  </div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+
+
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="center">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+            <h3>Research</h3>
+	    <b>Collaborators:</b> <a href="http://lapusta.caltech.edu/">Nadia Lapusta</a> , <a href="http://zhan.caltech.edu/">Zhongwen Zhan</a> , <a href="http://www.earthobservatory.sg/research-group/earthquake-physics-sylvain-barbot">Sylvain Barbot</a>, <a href="http://web.gps.caltech.edu/~ampuero/">Jean-Paul Ampuero</a> <br>
+<a href="https://github.com/vlambert"><b>Github</b></a>
+            <hr>
+
+   <!--         <div class="right">
+            <video id="cascadia1" autoplay loop>
+                <source src="images/2010sse_tremor.mp4" type="video/mp4">
+            </video>
+            </div>
+-->
+            <div class="left">
+            <h4>Global High-Frequency Earthquake Source Imaging</h4>
+            <p>The general characterization of earthquake source processes at long periods has seen great success via seismic finite fault inversion/modeling. Complementary techniques, such as seismic back-projection, extend the capabilities of source imaging to higher frequencies and reveal finer details of the rupture process. However, such high frequency methods are limited by the implicit assumption of simple Green’s functions, which restricts the use of global arrays and introduces artifacts (e.g., sweeping effects, depth/water phases) that require careful attention. This motivates the implementation of an imaging technique that considers the potential complexity of Green’s functions at high frequencies. We propose an alternative inversion approach based on the modest assumption that the path effects contributing to signals within high-coherency subarrays share a similar form. Under this assumption, we develop a method that can combine multiple high-coherency subarrays to invert for a sparse set of subevents. By accounting for potential variability in the Green’s functions among subarrays, our method allows for the utilization of heterogeneous global networks for robust high resolution imaging of the complex rupture process. The approach also provides a consistent framework for examining frequency-dependent radiation across a broad frequency spectrum.</p>
+
+<!--            <p><b>Video:</b> Fault slip rate for the 2010 slow slip event in the Cascadia subduction region estimated using the Network Inversion Filter with spatiotemporally filtered GPS data from the PANGA network. Purple dots indicate tremor epicenters.</p> 
+-->
+            
+            <blockindent><b>Collaborators</b>: <a href="http://zhan.caltech.edu/">Zhongwen Zhan</a>
+            </blockindent>
+<!--
+			<blockindent><b>Relevant publications</b>
+			<table>
+            
+            <tr valign="top">
+            <td align="left" class="bibtexnumber">
+            [<a name="riel2014" style="color:black;">3</a>]
+            </td>
+            <td class=bibtexitem">
+            B.&nbsp;Riel, M.&nbsp;Simons, P.&nbsp;Agram, and Z.&nbsp;Zhan. Detecting Transient Signals in Geodetic Time Series Using Sparse Estimation Techniques.
+            <em>Journal of Geophysical Research</em>, 2014.
+            [&nbsp;<a href="http://onlinelibrary.wiley.com/doi/10.1002/2014JB011077/abstract" style="color:#CC3333;">doi</a>&nbsp;]
+            </td>
+            </tr>
+-->
+			
+			</table>
+			</blockindent>
+
+		<br><br><hr>
+        </div>
+
+  <!--      <div class="right" style="margin-top:40px">
+        <a class="lvcoeffs"><img src="images/lvcoeffs.png" width=350 height=255 alt="lvcoeffs"/></a>
+        </div>
+-->
+        <div class="left">
+		<h4>Relationship Between Fault Zone Properties and the Frequency Content of Seismic Radiation</h4>
+			
+        <p>Seismic observations from several recent great earthquakes - the 2004 Mw 9.2 Sumatra-Andaman, 2010 Mw  8.8 Chile, and 2011 Mw  9.0 Tohoku-Oki events - suggest that more of the high-frequency radiation from the rupture process originated from the deeper extensions of the megathrust (e.g., Meng et al., GRL 2011; Lay et al., JGR 2012; Yao et al., GJI 2012). One proposed explanation is the presence of increased heterogeneity in fault frictional properties at deeper portions of the megathrust (e.g., Huang et al., PAG 2013). We explore an alternative model in which the variation in high-frequency radiation is a natural product of depth-dependent variations in fault zone properties. In particular, increasing effective normal stress as well as associated variations in the fault zone properties such as the shear zone width and permeability, should result in depth-dependent differences in the frequency content of the resulting source-time functions at different depths. In the shallow portions of the fault, velocity-strengthening areas and partial release of slip through aseismic processes should contribute to the low high-frequency radiation from those areas. Through numerical modeling of earthquake ruptures, we investigate how plausible changes in the fault zone structure and properties with depth modify the spectral distribution of the associated seismic radiation.</p>
+
+<!--        <p><b>Figure:</b> Spatial distribution of integrated B-spline amplitudes of various timescales for the Long Valley Caldera using spatial sparsity weighting.</p>
+-->
+            
+    <blockindent><b>Collaborators</b>: <a href="http://lapusta.caltech.edu/">Nadia Lapusta</a>
+    </blockindent>
+<!--
+	<blockindent><b>Relevant publications</b>
+	<table>
+
+	<tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="agu2014" style="color:black;">6</a>]
+    </td>
+    <td class="bibtexitem">
+    B.&nbsp;Riel, M.&nbsp;Simons, P.&nbsp;Agram. Estimating time-dependent magma source properties at the Long Valley caldera using InSAR and GPS time series.
+    <em>AGU Fall Meeting Abstracts</em>,
+    December 2014.
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="riel2014" style="color:black;">3</a>]
+    </td>
+    <td class=bibtexitem">
+    B.&nbsp;Riel, M.&nbsp;Simons, P.&nbsp;Agram, and Z.&nbsp;Zhan. Detecting Transient Signals in Geodetic Time Series Using Sparse Estimation Techniques.
+    <em>Journal of Geophysical Research</em>, 2014.
+    [&nbsp;<a href="http://onlinelibrary.wiley.com/doi/10.1002/2014JB011077/abstract" style="color:#CC3333;">doi</a>&nbsp;]
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="agram2013" style="color:black;">1</a>]
+    </td>
+    <td class=bibtexitem">
+    P.&nbsp;Agram, R.&nbsp;Jolivet, B.&nbsp;Riel, Y.N.&nbsp;Lin, M.&nbsp;Simons, E.&nbsp;Hetland, M-P.&nbsp;Doin, and C.&nbsp;Lasserre. New radar interferometric time series analysis toolbox released.
+    <em>Eos, Transactions American Geophysical Union</em>, 2013.
+    [&nbsp;<a href="shttp://www.bssaonline.org/content/104/2/1020.short" style="color:#CC3333;">doi</a>&nbsp;]
+    </td>
+    </tr>
+
+-->
+
+	</table>
+	</blockindent>
+
+    <br><br><hr>
+
+    </div><!-- End left -->
+
+
+     <div class="right">
+       <video id="ViscoCycle" autoplay loop>
+	 <source src="Images/StrainEvolution.mp4" type="video/mp4">
+       </video>
+        </div>
+
+        <div class="left">
+	  <h4>Modeling Earthquake Sequences within the Lithosphere-Asthenosphere System</h4>
+	  
+        <p> Fault slip relaxes lithospheric stress imposed by mantle flow, and in turn transfers stress to the ductile regions. The interplay of these systems governs the style of deformation at plate boundaries including the recurrence of seismic events. However, such deep processes remain challenging to incorporate in numerical simulations of earthquake cycles. We have developed a framework that couples fault slip and viscoelastic deformation to simulate fault dynamics in the lithosphere-asthenosphere system. The method resolves all phases of the earthquake cycle, including rupture propagation, afterslip, slow-slip events and the modulation of strain rate incurred in the ductile regions. Transient accelerations in the asthenosphere may follow both earthquakes and slow-slip events shortly after the rupture, depending on the rheology of the upper mantle and the magnitude of the event. This work opens the door to greater insight into the variability of earthquake sequences by incorporating the dynamics of distributed deformation. </p>
+
+        <p><b>Movie:</b> The video shows simulated time series for the evolution of surface deformation (top), slip velocity (middle) and strain rate (bottom) over 400 years for a system with two vertical strike-slip faults embedded in an elastic layer overlaying a viscoelastic asthenosphere governed by power-law dislocation creep. We show the spatial cross-section of slip velocity on the two faults and strain rate within the viscoelastic bulk throughout the time series, as well as the corresponding surface displacement in the along-strike direction. The two faults have different seismogenic regions with the East Fault being able to host larger earthquakes than the West Fault. The green lines in the top and bottom panels reference the locations of the two faults and the contours in the middle and bottom panels denote the cumulate inelastic deformation in slip and strain.</p>
+
+            
+    <blockindent><b>Collaborators</b>: <a href="http://www.earthobservatory.sg/research-group/earthquake-physics-sylvain-barbot">Sylvain Barbot</a> 
+    </blockindent>
+
+    <blockindent><b>Relevant publications</b>
+      <table>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="GRL2016" style="color:black;">1</a>]
+    </td>
+    <td class="bibtexitem">
+    Lambert, V. and S. Barbot (2016), Contributions of viscoelastic flow in earthquake cycles within the lithosphere-asthenosphere system. <em> Geophys. Res. Lett.</em>, 43, 10, 142-10, 154. [&nbsp;<a href="http://onlinelibrary.wiley.com/doi/10.1002/2016GL070345/full" style="color:#CC3333;">doi</a>&nbsp;] 
+    </td>
+    </tr>
+    
+
+</table>   
+</blockindent>  
+ <br><br><hr> 
+</div>
+    <!-- Now position the videos and images -->
+    
+
+    <hr>
+    </div><!-- end center -->
+
+    <div class="center">
+        <p><span style="color:#999999; font-size: 10pt">This site was last modified on: <script>  
+	      document.write(document.lastModified); 
+	</script></span></p> 
+    </div>
+
+
+    </div><!--/.container-->
+
+  </body>
+</html>

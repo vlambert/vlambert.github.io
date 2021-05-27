@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="w3.css" >
+<body>
+
+<!--<?php if (!empty($_POST)) { echo '42';} ?><br>-->
+<!--<?php if (empty($_POST)) { echo '40';} ?><br>-->
+Welcome <?php echo $_POST["name"]; ?><br>
+
+<!--<?php
+$myfile = fopen("userinfo.txt", "a") or die("Unable to open file!");
+fwrite($myfile,'testing please');
+$txt = $_POST["name"];
+fwrite($myfile, $txt);
+fwrite($myfile, "; ");
+$txt = $_POST["institute"];
+fwrite($myfile, $txt);
+fwrite($myfile, "; ");
+$txt = $_POST["email"];
+fwrite($myfile, $txt);
+fwrite($myfile, "\n");
+fclose($myfile);
+?>-->	
+
+<?php
+$myfile = fopen("userinfo.txt", "a") or die("Unable to open file!");
+$txt = $_POST["name"];
+fwrite($myfile, $txt);
+fwrite($myfile, "; ");
+$txt = $_POST["institute"];
+fwrite($myfile, $txt);
+fwrite($myfile, "; ");
+$txt = $_POST["email"];
+fwrite($myfile, $txt);
+fwrite($myfile, "\n");
+fclose($myfile);
+?>
+
+<!--<div id="container">-->
+<!-- <div class="w3-display-container">-->
+<!--	<img src="images/main.png" style="width:100%">-->
+<!--	<div class="w3-display-bottomleft w3-margin-left w3-padding-left">
+		<h5><em><b>Valere Lambert</b></em></h5>
+		<h6><em><b>SeismoLab, California Institute of Technology</b></em></h6>
+	</div>
+</div>
+-->
+<!--<br>-->
+
+<!--<div class="w3-container w3-round w3-card-8 w3-center w3-margin w3-light-blue">
+	<ul  class="w3-navbar  w3-large">
+		<li  style="width:16.66%"> <a class="w3-text-brown w3-padding-xlarge" href="index.html">Home</a></li>
+        <li  style="width:16.66%"> <a class="w3-text-brown w3-padding-xlarge" href="research.html">Research</a></li>
+        <li  style="width:16.66%"> <a class="w3-text-brown w3-padding-xlarge" href="publications.html">Publications</a></li>
+        <li  style="width:16.66%"> <a class="w3-text-brown w3-padding-xlarge" href="cv.html">CV</a></li>
+        <li  style="width:16.66%"> <a class="w3-text-brown w3-padding-xlarge" href="software.html">Software</a></li>
+		<li  style="width:16.66%"> <a class="w3-text-brown w3-padding-xlarge" href="contact.html">Contact</a></li>
+    </ul>
+</div>
+-->
+
+ 
+<div class="w3-round w3-container w3-card-8 w3-margin w3-padding-16">
+	<div class="w3-container">
+		<h3 class="w3-text-grey">Software Download</h3>
+                <p><u><a class="w3-text-blue w3-large" href="testfile">Download myfile here!</a></u></p>
+<!--		<p><u><a class="w3-text-blue w3-large" href="codes/y_crazyseismic_v3.1.zip">Download Crazyseismic v3.1 here!</a></u></p>-->
+	</div>
+</div>
+
+</body>
+</html>

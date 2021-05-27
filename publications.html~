@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./images/favicon.png">
+
+    <title>Lambert - Publications</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css" media="screen">
+    <!-- Bootstrap theme -->
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Files/my_custom.css" rel="stylesheet">
+
+    <!-- Google Analytics --> 
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107269759-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-107269759-1');
+    </script>
+
+
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="container">
+		  <div class="navbar-header">
+			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			 </button>
+             <a class="navbar-brand navbar-left" href="index.html">Val&egravere Lambert, Ph.D Student in Geophysics</a>
+		  </div>
+		  <div class="collapse navbar-collapse">
+			 <ul class="nav navbar-nav navbar-right" id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li class="active"><a href="publications.html">Publications</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="teaching.html">Teaching</a><li> 
+			 </ul>
+
+		  </div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+
+
+<!-- ##################################################################
+     ################################################################## -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="centerleft">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+
+   <h3>Publications </h3>
+   <a href="https://www.researchgate.net/profile/Valere_Lambert">ResearchGate</a><br>
+   <a href="https://scholar.google.com/citations?user=O-MPnDUAAAAJ&hl=en&oi=ao">Google Scholar</a>
+
+
+<!-- 88888888888888888888888888888888888888888888888888888888888888888888888888888-->
+    <hr>
+    <h5><b>Refereed publications</b></h5>
+    <table>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="Science2017" style="color:black;">3</a>]
+    </td>
+    <td class="bibtexitem">
+    Moore, J. et al. (2017), Imaging the distribution of transient viscosity after the 2016 Mw 7.1 Kumamoto. <em>Science</em> 356, 6334, 163-167. 			 
+    [&nbsp;<a href="http://science.sciencemag.org/content/356/6334/163.full" sttyle="color:#CC3333;">doi</a>&nbsp;]
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="Barbot2017" style="color:black;">2</a>]
+    </td>
+    <td class="bibtexitem">
+    Barbot, S., Moore, J., and V. Lambert (2017), Displacement and Stress Associated with Distributed Anelastic Deformation in a Half-Space.<em> BSSA</em> 107 (2), 821-855.
+    [&nbsp;<a href="http://bssa.geoscienceworld.org/content/107/2/821" sttyle="color:#CC3333;">doi</a>&nbsp;]
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="Lambert2016" style="color:black;">1</a>]
+    </td>
+    <td class="bibtexitem">
+      Lambert, V., and S. Barbot (2016), Contribution of viscoelastic flow in earthquake cycles within the lithosphere-asthenosphere system. <em>Geophys. Res. Lett.</em> 43, 10, 142-10, 154.
+    [&nbsp;<a href="http://onlinelibrary.wiley.com/doi/10.1002/2016GL070345/full" sttyle="color:#CC3333;">doi</a>&nbsp;]
+    </td>
+    </tr>
+ 
+   </table>
+   </section>
+
+
+<!-- 88888888888888888888888888888888888888888888888888888888888888888888888888888-->
+   <hr>
+   <section class="pubgroup">
+   <h5><b>Non-refereed publications</b></h5>
+
+
+   <table>
+     
+
+   <tr valign="top">
+   <td align="left" class="bibtexnumber">
+   [<a name="Lambertthesis" style="color:black;">1</a>]
+   </td>
+   <td class="bibtexitem">
+   Valere Lambert (Defended May 27, 2014), Multi-model inference ranking and applications to physics at the Large Hadron Collider, Senior thesis (Major).
+
+   [&nbsp;
+   <a href="http://resolver.caltech.edu/CaltechTHESIS:06122014-143656852">link</a>&nbsp;]
+
+   </td>
+   </tr>
+   </table>
+
+
+
+<!-- ##################################################################
+     ################################################################## -->
+
+	<hr>
+   <h5><b>Selected presentations</b></h5>
+
+   <table>
+
+     <tr valign="top">
+       <td align="left" class="bibtexnumber">
+	 [<a name="Cargese2017" style="color:black;">7</a>]
+	 </td>
+       <td class="bibtexitem">
+	 Lambert, V., and N. Lapusta, Modeling stable and unstable fault slip using combinations of rate-and-state friction and enhanced dynamics weakening (talk), <em> Carg&egravese School on Earthquakes</em>, October 2017
+       </td>
+     </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="CargeseST2017" style="color:black;">6</a>]
+    </td>
+    <td class="bibtexitem">
+      Lambert, V., and N. Lapusta, Implications of depth-dependent variations in fault zone properties for the frequency content of seismic radiation (talk), <em> Carg&egravese School on Earthquakes</em>, October 2017
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="Colorado2017" style="color:black;">5</a>]
+    </td>
+    <td class=bibtexitem>
+      Lambert, V., Barbot, S., and N. Lapusta, Modeling the Interaction Between Fault Slip and Viscoelastic Deformation (talk), <em> CIG Crustal Deformation Modeling Workshop (invited)</em>, June 2017
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="AGU2016" style="color:black;">4</a>]
+    </td>
+    <td class="bibtexitem">
+      Lambert, V., Barbot, S., and N. Lapusta, The Role of Thermal Processes in Defining the Seismogenic Zone (talk), <em> AGU Fall Meeting (invited) </em> December 2016
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="AOGS2016" style="color:black;">3</a>]
+    </td>
+    <td class="bibtexitem">
+      Lambert, V., and S. Barbot, How to Break the Lithosphere: Insight from the 2012 Wharton Basin Earthquake (talk), <em> AOGS 13th Annual Meeting </em>, August 2016
+    </td>
+    </tr>
+
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="Bangalore2016" style="color:black;">2</a>]
+    </td>
+    <td class="bibtexitem">
+      Lambert, V., and S. Barbot, Role of Thermal Processes in the Earthquake Cycle: Insight from the 2012 Wharton Basin Earthquake (talk), <em> Workshop on Geodynamics of the Indo-Eurasia Plate Boundary, IISc Bangalore </em>, April 2016
+    </td>
+    </tr>
+    
+    <tr valign="top">
+    <td align="left" class="bibtexnumber">
+    [<a name="CERN2013" style="color:black;">1</a>]
+    </td>
+    <td class="bibtexitem">
+      Lambert, V. et al., Measurement of the Higgs Self-Coupling at the HL-LHC (talk), <em> CERN Student Sessions </em>, August 2013
+    </td>
+    </tr>
+
+ 
+   </table>
+
+    <hr>
+   </div>
+   </div>
+   <!--end container-->
+        <!--<p>&copy; Brent Minchew 2013</p>-->
+        <div class="centerleft">
+         <p><span style="color:#999999;">bibliography entries generated with </span><a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html 1.97</a></p>
+	 <p><span style="color:#999999; font-size: 10pt">This site was last modified on: <script> 
+	       document.write(document.lastModified);
+	 </script></span></p> 
+        </div>
+
+   <!--end bg-->
+   <!-- Free template distributed by http://freehtml5templates.com -->
+  </body>
+</html>

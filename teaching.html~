@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./images/favicon.png">
+
+    <title>Lambert - Teaching</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css" media="screen">
+    <!-- Bootstrap theme -->
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Files/my_custom.css" rel="stylesheet">
+
+    <!-- Google Analytics --> 
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107269759-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-107269759-1');
+    </script>
+    
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand navbar-left" href="index.html">Val&egravere Lambert, Ph.D Student in Geophysics</a>
+          </div>
+          <div class="collapse navbar-collapse">
+             <ul class="nav navbar-nav navbar-right" id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+		<li class="active"><a href="teaching.html">Teaching</a><li> 
+             </ul>
+
+          </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </div><!-- /.navbar --> 
+
+
+    <div class="container">
+      <div class="row">
+        <div class="centerleft">
+
+            <div style="padding-left: 1em;">
+            <p><h4>Teaching Experience</h4></p>
+	    <b>Caltech Teacing Conference Planning Committee </b>, 2017 <br>
+	    <blockindent> Session Facilitator, <em>Teaching the Global Classroom</em>  </blockindent>  <br>
+	    <b>Teaching Assistant</b> <br>
+	    <blockindent> 
+	      <!--<b>Ge 166: Hydrology</b>, Caltech, Instructor: Victor Tsai, Spring 2018 <br>
+	      <em>Focus on how water moves on earth, including in groundwater, rivers, oceans, glaciers, and the atmosphere. Class is based on fluid mechanics, which is covered. Specific topics will include the Navier-Stokes equation, Darcy's law, aquifer flow, contaminant transport, turbulent flow, gravity waves, tsunami propagation, geostrophic currents, Ekman transport, glacier flow laws, and the Hadley circulation.</em><br>
+<br>	-->
+<b>PHY122: Praktikum zur Physik II</b>, Universit&aumlt Z&uumlrich, Instructor: Matthias Hengsberger, Spring 2015 <br>
+	      <em>Second year physics laboratory course in mechanics, optics and electricity and magnetism. </em><br>
+<br>
+	      <b>Ph 5/105: Analog Electronics Laboratory</b>, Caltech, Instructor: Virginio Sannibale, Fall 2012 <br>
+	      <em>A fast-paced laboratory course covering the design, construction, and testing of practical analog and interface circuits, with emphasis on applications of operational amplifiers. No prior experience with electronics is required. Basic linear and nonlinear elements and circuits are studied, including amplifiers, filters, oscillators and other signal conditioning circuits. Each week includes a 45 minute lecture/recitation and a 2.5 hour laboratory. The course culminates in a two-week project of the student's choosing </em> <br>
+	    </blockindent>
+            <br>
+            <p><h4>Outreach</h4>
+	      <a href="https://www.adoptaphysicist.org/webdocs/about.cfm">Adopt-a-Physicist</a>, 2015-present <br>
+	      Juror for the Swiss International Young Physicist Tournament, 2015 <br>
+	      Moderator, CERN and ETH Z&uumlrich <a href="http://cms.web.cern.ch/content/cms-physics-masterclass">International Physics Masterclasses</a>, 2015 <br>
+	      <a href="http://cms.web.cern.ch/org/visits-cms">CMS Tour Guide</a>, Compact Muon Solenoid Experiment, CERN, 2015 <br>
+
+ 
+          <br>
+        </div>
+        <hr>
+      </div>
+
+	<div class="center">
+	  <a class="extra"><img src="Images/Shawn.JPG" width="320" height="210" alt="extra1"/></a>
+	  <a class="extra"><img src="Images/CMS.JPG" width="300" height="210" alt="extra1"/></a>
+	  <a class="extra"><img src="Images/Experiment.JPG" width="270" height="210" alt="extra1"/></a>
+	  <hr>
+	</div>
+
+    <!-- Footer -->
+    <div class="centerleft">
+        <p><span style="color:#999999; font-size: 10pt">This site was last modified on: <script> 
+	      document.write(document.lastModified); 
+	</script></span></p>  
+    </div>
+
+    </div><!--/.container-->
+
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Val&egravere Lambert</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css" media="screen">
+
+    <!-- Bootstrap theme -->
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./Files/my_custom.css" rel="stylesheet">
+   
+    <!-- Google Analytics --> 
+    <script type="text/javascript">
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34168735-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+  </head>
+
+  <body role="document">
+
+	 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="container">
+		  <div class="navbar-header">
+			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			 </button>
+             <a class="navbar-brand navbar-left" href="index.html">Val&egravere Lambert, Ph.D Student in Geophysics</a>
+		  </div>
+		  <div class="navbar-collapse collapse navbar-responsive-collapse">
+			 <ul class="nav navbar-nav navbar-right" id="nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="teaching.html">Teaching</a><li>
+           		 </ul>
+
+		  </div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="center">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+
+        <div class="right" style="margin-top:40px">
+        <a class="headshot1"><img src="Images/Profile.jpg" width="250" height="250" alt="picture1"/></a><br>
+        </div>
+
+        <div class="left">
+        <p><h5><b>About Me</b></h5></p>
+        <p>I am currently a second year Ph.D. student in Geophysics at the California Institute of Technology. My research is primarily focused on studies in earthquake physics and source seismology. I am currently working with <a href="http://lapusta.caltech.edu/">Nadia Lapusta</a> on understanding the physics of the earthquake nucleation and rupture process through numerical modeling, particularly focusing on how fault zone structure and properties control earthquake source characteristics. I also work with <a href="http://zhan.caltech.edu/">Zhongwen Zhan</a> on high-frequency earthquake source imaging with the goal of developing robust models incorporating as much seismic data from heterogeneous global arrays as possible.    
+         <a href="research.html">Read more</a></p>
+
+
+	<p><h5><b>Education</b></h5></p>
+	<p>2017: M.Sc. Geophysics, California Institute of Technology <br>
+	2014: B.Sc. Physics with Honors, California Institute of Technology</p> 
+	</div>
+
+	<div class="right" style="margin-top:20px">  
+	  <a class="seismologo"><img src="Images/seismo_lab_logo.png" width="250" height="180" alt="logo1"/></a>  
+	</div>
+
+	<div class="left">
+         <h5><b>Contact</b></h5>
+            <h6><a href="http://www.seismolab.caltech.edu" style="color:#000000;">Seismological Laboratory</a></h6>
+            <h6><a href="http://www.gps.caltech.edu" style="color:#000000;">Division of Geological and Planetary Sciences</a></h6>
+            <h6><a href="http://www.caltech.edu" style="color:#000000;">California Institute of Technology</a></h6>
+            <h6><a href="mailto:vlambert@caltech.edu">vlambert-at-caltech.edu</a></h6>
+
+            
+         <h6>Office: 362 South Mudd (<a href="http://www.caltech.edu/content/campus-maps">map</a>)</h6>
+         <h6>Phone: (619) 274-2595</h6>
+         <h6>Mail: 1200 E. California Blvd., MS 252-21, Pasadena, CA  91125</h6>
+        </div>
+
+        
+
+
+         <hr>
+
+         </div><!--/span-->
+
+        
+        <!-- Footer -->
+        <div class="center">
+        <p><span style="color:#999999; font-size: 10pt">This site was last modified on: <script>
+	document.write(document.lastModified);
+	</script></span></p>
+        </div>
+
+    </div><!--/.container-->
+
+  </body>
+</html>

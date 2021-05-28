@@ -88,13 +88,13 @@ div.righters {
 
 .columnleft{
 	float: left;
-	width: 30%;
+	width: 40%;
 	padding: 0px;
 	height: 300px;
 }
 .columnright{
 	float: left;
-	width: 70%;
+	width: 60%;
 	padding: 0px;
 	height: 300px;
 }

@@ -86,9 +86,15 @@ div.righters {
     width=40%;
 }
 
-.column{
+.columnleft{
 	float: left;
 	width: 30%;
+	padding: 0px;
+	height: 300px;
+}
+.columnright{
+	float: left;
+	width: 70%;
 	padding: 0px;
 	height: 300px;
 }

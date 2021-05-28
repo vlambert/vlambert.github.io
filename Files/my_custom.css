@@ -93,7 +93,7 @@ div.righters {
 	height: 300px;
 }
 
-.row{
+.row:after{
 	content: "";
 	display: table;
 	clear: both;
